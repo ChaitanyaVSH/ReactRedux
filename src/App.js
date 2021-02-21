@@ -5,6 +5,7 @@ import styles from "./App.module.css";
 import CakeContainer from "./components/Cake/CakeContainer";
 import HooksCakeContainer from "./components/Cake/HooksCakeContainer";
 import IceCreamContainer from "./components/IceCreams/IceCreamContainer";
+import Card from "./components/Experimental/Card";
 
 const App = () => {
   return(
@@ -14,6 +15,7 @@ const App = () => {
           <CakeContainer/>
           <HooksCakeContainer/>
           <IceCreamContainer/>
+          {/* <Card/> */}
       </div>
     </Provider>
     
