@@ -1,7 +1,5 @@
 import { BUY_CAKE } from "./CakeTypes"
 
-
-
 // InitialState
 const defaultState = {
     numberOfCakes: 100

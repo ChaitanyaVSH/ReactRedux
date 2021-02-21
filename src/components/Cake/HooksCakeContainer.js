@@ -7,7 +7,7 @@ const HooksCakeContainer = () => {
 
     // useSelector() takes function called SelectorFunction as a parameter
     // This recieves the redux state as argument, This function can return values
-    const numberOfCakes = useSelector(state  => state.numberOfCakes)
+    const numberOfCakes = useSelector(state  => state.cake.numberOfCakes)
 
     const dispatch = useDispatch();
 
